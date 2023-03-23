@@ -1,0 +1,18 @@
+export const documentProps = {
+  title: 'Coming Soon',
+  description:
+    'A scaffold for a coming soon page with diy-pwa and vite-plugin-ssr',
+};
+import Header from '../components/Header.mdx';
+import Footer from '../components/Footer.mdx';
+import Main from '../components/Main.jsx';
+import Countdown from '../components/Countdown.jsx';
+
+<Header />
+<Main>
+  <h1 className="w3-jumbo w3-animate-top w3-center">{documentProps.title}</h1>
+  <hr className="w3-border-grey" />
+  <Countdown />
+   It's bigger...It's better ...and its going to make the internet go wild! Come back soon to be the first to experience...this website? 
+</Main>
+<Footer />
